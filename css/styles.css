@@ -1,0 +1,97 @@
+:root {
+  --web-color: #2196f3;
+  --span-color: #757575;
+  --body-color: #212121;
+  --contact-color: #d94f4f;
+
+  --button-bgc: #2196f3;
+  --button-color: #ffffff;
+}
+
+.hero-navigation li a {
+  color: var(--body-color);
+}
+.hero-navigation li:hover a:hover {
+  color: var(--web-color);
+}
+
+.button-text-filter li button {
+  cursor: pointer;
+  line-height: 1.625;
+  font-size: 16px;
+  font-weight: 500;
+}
+.button-text-index {
+  cursor: pointer;
+  line-height: 1.875;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--button-color);
+  background-color: var(--web-color);
+}
+
+button:hover {
+  background-color: var(--button-bgc);
+  color: var(--button-color);
+}
+button:focus {
+  background-color: var(--button-bgc);
+  color: var(--button-color);
+}
+.contact-hover:hover {
+  color: var(--contact-color);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--body-color);
+}
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.363;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.284;
+}
+h3 {
+  line-height: 1.142;
+  font-size: 16px;
+  font-weight: 700;
+}
+h4 {
+  line-height: 1.187;
+  font-size: 16px;
+  font-weight: 500;
+}
+p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+span {
+  line-height: 1.875;
+  color: var(--span-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+.web {
+  color: var(--web-color);
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+}
+.direccion {
+  font-size: 14px;
+}
+.direccion-opacidad {
+  opacity: 60%;
+}
+.web li a {
+  font-size: 14px;
+  line-height: 1.172;
+}
+.section-title {
+  display: none;
+}
