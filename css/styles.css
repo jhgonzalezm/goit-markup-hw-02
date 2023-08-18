@@ -8,6 +8,7 @@
   --button-bgc: #2196f3;
   --button-color: #ffffff;
 }
+
 * {
   text-decoration: none;
   list-style-type: none;
@@ -81,6 +82,11 @@ p {
 .main-introduction {
   background-color: var(--main-introducion);
 }
+
+.footer {
+  background-color: var(--main-introducion);
+}
+
 .h1-introduction {
   font-size: 44px;
   font-weight: 900;
@@ -100,6 +106,7 @@ span {
 }
 .direccion {
   font-size: 14px;
+  color: var(--button-color);
 }
 .direccion-opacidad {
   opacity: 60%;
