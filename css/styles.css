@@ -49,9 +49,18 @@ button:focus {
 }
 .hero-navigation li a:focus {
   color: var(--web-color);
+  font-weight: 500;
 }
-.contact-hover:hover {
-  color: var(--contact-color);
+.hero-contact li a {
+  color: var(--span-color);
+}
+.hero-contact-email:hover {
+  font-weight: 500;
+  color: var(--web-color);
+}
+.hero-contact-email:focus {
+  font-weight: 500;
+  color: var(--web-color);
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -118,6 +127,7 @@ span {
 .section-title {
   display: none;
 }
+/*
 .img-dedicamos li img {
   width: 373.16px;
   height: 323.7px;
@@ -130,3 +140,4 @@ span {
   width: 370px;
   height: 294px;
 }
+*/
